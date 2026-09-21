@@ -1,0 +1,44 @@
+/**
+ * Dizajnové tokeny.
+ * Všetky farby, rozostupy a typografia sú tu — komponenty ich len konzumujú.
+ */
+:root {
+  /* --- Farby: svetlá, jemne ružová paleta --- */
+  --c-bg-1: #fffaf8;
+  --c-bg-2: #fceef2;
+  --c-bg-3: #f6e0ea;
+  --c-bg-4: #f3e6f1;
+
+  --c-surface: rgba(255, 255, 255, 0.78);
+  --c-surface-solid: #fffdfd;
+  --c-surface-hover: rgba(255, 255, 255, 0.94);
+
+  --c-text: #3d2f34;
+  --c-text-dim: #8b7379;
+  --c-text-faint: #b29aa1;
+
+  --c-accent: #db7f98;
+  --c-accent-deep: #c25f7c;
+  --c-accent-soft: rgba(219, 127, 152, 0.16);
+  --c-accent-glow: rgba(219, 127, 152, 0.28);
+
+  --c-border: rgba(197, 148, 165, 0.26);
+  --c-border-strong: rgba(197, 148, 165, 0.45);
+
+  --shadow-sm: 0 1px 2px rgba(120, 70, 90, 0.06);
+  --shadow-md: 0 8px 24px -8px rgba(120, 70, 90, 0.18);
+  --shadow-lg: 0 24px 60px -18px rgba(120, 70, 90, 0.34);
+
+  /* --- Typografia --- */
+  --font-display: 'Instrument Serif', ui-serif, Georgia, 'Times New Roman', serif;
+  --font-body:
+    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, 'Helvetica Neue', sans-serif;
+
+  /* --- Rozostupy a rádiusy --- */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}

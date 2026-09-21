@@ -1,48 +1,42 @@
-# euka-timeline
+# Naše spomienky — časová os
 
-This template should help get you started developing with Vue 3 in Vite.
+Statická Vue 3 stránka s horizontálnou, scrollovateľnou a zoomovateľnou časovou
+osou spoločných zážitkov. Beží bez backendu, hostovaná na GitHub Pages.
 
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## Rýchly štart
 
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+Build a lokálny náhľad produkčnej verzie:
 
 ```sh
 npm run build
+npm run preview
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Pridanie spomienky
 
-```sh
-npm run lint
-```
+Uprav [`public/data/events.json`](public/data/events.json), fotky ulož do
+`public/images/`. Formát je popísaný v [DATA.md](DATA.md).
+
+## Nasadenie na GitHub Pages
+
+V repozitári je workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml),
+ktorý po každom pushi do `master` zbuildí projekt a nasadí `dist/` na GitHub Pages.
+
+Jednorazové nastavenie: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+Stránka potom beží na `https://<user>.github.io/euka-timeline/`. Ak premenuješ
+repozitár, zmeň `REPO_NAME` v [`vite.config.ts`](vite.config.ts).
+
+## Ovládanie osi
+
+| Akcia | Desktop | Mobil |
+| --- | --- | --- |
+| Posun po osi | koliesko myši / vodorovný scroll | swipe do strán |
+| Zoom | `Ctrl` / `⌘` + koliesko, alebo tlačidlá `+` / `−` | pinch dvoma prstami, alebo tlačidlá |
+| Reset zoomu | klik na percentá | klik na percentá |
+| Fotky eventu | hover nad krúžkom | ťuknutie na krúžok (otvorí lightbox) |
