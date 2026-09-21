@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "date": "2023-05-14",
+      "title": "Prvé rande v kaviarni",
+      "images": [
+        "images/2023-05-14-kaviaren-1.svg",
+        "images/2023-05-14-kaviaren-2.svg"
+      ]
+    },
+    {
+      "date": "2023-06-02",
+      "title": "Piknik pri jazere"
+    },
+    {
+      "date": "2023-12-24",
+      "title": "Prvé spoločné Vianoce",
+      "images": [
+        "images/2023-12-24-vianoce.svg"
+      ]
+    },
+    {
+      "date": "2024-07-18",
+      "title": "Výlet do Vysokých Tatier",
+      "images": [
+        "images/2024-07-18-tatry-1.svg",
+        "images/2024-07-18-tatry-2.svg",
+        "images/2024-07-18-tatry-3.svg"
+      ]
+    },
+    {
+      "date": "2025-02-14",
+      "title": "Valentín doma"
+    }
+  ]
+}
