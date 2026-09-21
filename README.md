@@ -22,6 +22,16 @@ npm run preview
 Uprav [`public/data/events.json`](public/data/events.json), fotky ulož do
 `public/images/`. Formát je popísaný v [DATA.md](DATA.md).
 
+## Fonty
+
+Instrument Serif (nadpisy) a Inter (text) sú **self-hostované** v `public/fonts/`
+— stránka nerobí žiadnu požiadavku na Google Fonts. `@font-face` pravidlá sú v
+[`src/assets/styles/fonts.css`](src/assets/styles/fonts.css).
+
+Sťahujú sa len podmnožiny `latin` a `latin-ext` (spolu 184 kB, z toho reálne
+väčšinou 5 súborov); `latin-ext` je pre slovenčinu nutná kvôli č, š, ž, ľ, ť, ň,
+ď, ŕ, ĺ. Vďaka `unicode-range` si prehliadač stiahne len to, čo naozaj potrebuje.
+
 ## Nasadenie na GitHub Pages
 
 V repozitári je workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml),

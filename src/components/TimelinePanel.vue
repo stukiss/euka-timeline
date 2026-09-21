@@ -15,6 +15,11 @@ const props = defineProps<{
 
 const scroller = ref<HTMLElement | null>(null)
 
+/* Os je vertikálne v strede trate, takže jej stred = zvislý stred prvého eventu.
+   Landing sekcia podľa nej počíta cieľ scrollu aj priebeh fade-outu. */
+const axisEl = ref<HTMLElement | null>(null)
+defineExpose({ axisEl })
+
 /* Na širokých obrazovkách má os vlastný scroll a koliesko myši ju posúva do strán.
    Na mobile scrolluje stránka zvisle, takže koliesko nepreberáme. */
 const isWide = ref(true)
@@ -178,7 +183,7 @@ function openLightbox(event: TimelineEvent, index: number) {
       </p>
 
       <div v-else class="timeline__track" :style="{ width: `${trackWidth}px` }">
-        <div class="timeline__axis" />
+        <div ref="axisEl" class="timeline__axis" />
 
         <span
           v-for="tick in ticks"
@@ -219,12 +224,28 @@ function openLightbox(event: TimelineEvent, index: number) {
   height: 100%;
 }
 
+/*
+ * Lišta plává nad traťou, nie nad ňou v toku — vďaka tomu vypĺňa scroller
+ * celú výšku sekcie a os je presne v jej vertikálnom strede. To je dôležité:
+ * cieľ scrollu "prvý event v strede obrazovky" tak vyjde presne na koniec
+ * scrollu landing sekcie.
+ */
 .timeline__bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 40;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem clamp(1rem, 3vw, 2rem) 0;
+  pointer-events: none;
+}
+
+.timeline__bar > * {
+  pointer-events: auto;
 }
 
 .timeline__hint {
@@ -359,10 +380,6 @@ function openLightbox(event: TimelineEvent, index: number) {
 }
 
 @media (max-width: 899px) {
-  .timeline {
-    height: auto;
-  }
-
   /* Na mobile je zoom dotykový (pinch) — textová nápoveda len zaberá miesto. */
   .timeline__hint {
     display: none;
@@ -370,10 +387,6 @@ function openLightbox(event: TimelineEvent, index: number) {
 
   .timeline__bar {
     justify-content: flex-end;
-  }
-
-  .timeline__track {
-    min-height: 380px;
   }
 }
 </style>

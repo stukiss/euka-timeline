@@ -3,21 +3,21 @@
     {
       "date": "2023-05-14",
       "title": "Prvé rande v kaviarni",
-      "images": [
-        "images/2023-05-14-kaviaren-1.svg",
-        "images/2023-05-14-kaviaren-2.svg"
-      ]
+      "images": ["images/2023-05-14-kaviaren-1.svg", "images/2023-05-14-kaviaren-2.svg"]
     },
     {
       "date": "2023-06-02",
       "title": "Piknik pri jazere"
     },
     {
+      "date": "2026-03-29",
+      "title": "Naše prvé kino",
+      "images": ["images/260329_kino.jpg"]
+    },
+    {
       "date": "2023-12-24",
       "title": "Prvé spoločné Vianoce",
-      "images": [
-        "images/2023-12-24-vianoce.svg"
-      ]
+      "images": ["images/2023-12-24-vianoce.svg"]
     },
     {
       "date": "2024-07-18",

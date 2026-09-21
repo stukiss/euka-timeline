@@ -169,7 +169,7 @@ const imageCountLabel = computed(() => {
 }
 
 .node__date {
-  font-size: 0.6875rem;
+  font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--c-accent-deep);
@@ -178,7 +178,7 @@ const imageCountLabel = computed(() => {
 
 .node__title {
   font-family: var(--font-display);
-  font-size: 1.0625rem;
+  font-size: 1.5rem;
   line-height: 1.25;
   color: var(--c-text);
 }
