@@ -27,7 +27,8 @@
     },
     {
       "date": "2026-05-06",
-      "title": "Prvé ľúbim ťa po FRI feste"
+      "title": "Prvé ľúbim ťa",
+      "description": "A hoci sme sa toho tak skoro trošku báli, ale nebolo na čo čakať"
     },
     {
       "date": "2026-05-07",
@@ -38,8 +39,101 @@
       "title": "Naše prvé \"selfie\""
     },
     {
-      "date": "2026-04-13",
-      "title": "Tu sa to všetko začalo :)"
+      "date": "2026-05-22",
+      "title": "Výlet na Starhrad"
+    },
+    {
+      "date": "2026-05-29",
+      "title": "Šalátik na kopčeku",
+      "description": "Ďalšia spoločná aktivitka, ktorá nás neskutočne baví (a ktorú by nám mali všetci fancy ľudia závidieť)"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "Najlepší kebab",
+      "description": "Ten v Prievidzi, haha, a nohy nesmú chýbať"
+    },
+    {
+      "date": "2026-06-18",
+      "title": "Hrádok",
+      "description": "Náš prvý spoločný výlet u Adama doma"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Evkine promócie",
+      "description": "Dámy a páni, Evka je už oficiálne inžinierka!"
+    },
+    {
+      "date": "2026-06-25",
+      "title": "Bobrov",
+      "description": "Toto je zas náš prvý spoločný výlet u Evky doma"
+    },
+    {
+      "date": "2026-07-02",
+      "title": "Gaderská dolina a hrad Blatnica"
+    },
+    {
+      "date": "2026-07-05",
+      "title": "Terchová"
+    },
+    {
+      "date": "2026-07-24",
+      "title": "Mega výletík u Adama",
+      "description": "Hrad Hrušov, vyhliadka na Skýcove a ešte aj Sivý Kameň v Podhradí"
+    },
+    {
+      "date": "2026-08-03",
+      "title": "Prvý spoločný cyklovýlet okolo Vodného diela"
+    },
+    {
+      "date": "2026-08-10",
+      "title": "Lietavský hrad"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "Zatmenie Slnka na Straníku"
+    },
+    {
+      "date": "2026-08-21",
+      "title": "Druhý pokus prejsť Gaderskú dolinu",
+      "description": "Tentokrát úspešný aj s oslavnou horalkou v jaskyni"
+    },
+    {
+      "date": "2026-08-25",
+      "title": "Začiatok gréckeho roadtripu",
+      "description": "Tu sa začala naša prvá spoločná dovolenka pri mori! (dosť dobrými drinčíkmi btw)"
+    },
+    {
+      "date": "2026-08-26",
+      "title": "Výlet do jaskyne a prvé kupkanieee"
+    },
+    {
+      "date": "2026-08-27",
+      "title": "Pokračujeme v roadtripe",
+      "description": "Čo ten spálený chrbát, hmmm?"
+    },
+    {
+      "date": "2026-08-28",
+      "title": "Túlanie sa po Solúne",
+      "description": "Foto múzeum, biela veža, mekáč, plavba na lodi a nakoniec ešte prehliadkavojnovej lode ešte aj s Dávidkovym komentárom."
+    },
+    {
+      "date": "2026-08-29",
+      "title": "Posledné kúpanie v mori",
+      "description": "Na to sme si museli vytiahnuť špeciálnu sedačku :D"
+    },
+    {
+      "date": "2026-08-30",
+      "title": "Na záver roadtripu ppč technikcé múzeum",
+      "description": "Och, tie autíčka čo tam boli, a foťáčikyyyyyyy. A btw, dúfam že naše deti budú vyzerať tak dobre ako my na tej poslednej fotke"
+    },
+    {
+      "date": "2026-09-05",
+      "title": "Ďalší cyklovýlet a večer Gladiátor",
+      "description": "Čo ten spálený chrbát, hmmm?"
+    },
+    {
+      "date": "2026-09-15",
+      "title": "Výlet na Kľak zakončený haluškami a pirohami"
     }
   ]
 }
