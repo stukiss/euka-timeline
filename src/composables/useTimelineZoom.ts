@@ -1,7 +1,9 @@
 import { computed, onBeforeUnmount, ref, watch, type Ref } from 'vue'
 import {
+  MOBILE_QUERY,
   TRACK_PAD_X,
   ZOOM_DEFAULT,
+  ZOOM_DEFAULT_MOBILE,
   ZOOM_MAX,
   ZOOM_MIN,
   ZOOM_STEP,
@@ -10,6 +12,16 @@ import {
 
 function clamp(value: number, min: number, max: number): number {
   return Math.min(max, Math.max(min, value))
+}
+
+/**
+ * Predvolená úroveň zoomu podľa šírky viewportu.
+ * Vyhodnocuje sa pri inicializácii a pri každom resete — nie priebežne pri
+ * zmene rozmerov okna, aby sa zoom nastavený používateľom sám neprepísal.
+ */
+function defaultZoom(): number {
+  const value = window.matchMedia(MOBILE_QUERY).matches ? ZOOM_DEFAULT_MOBILE : ZOOM_DEFAULT
+  return clamp(value, ZOOM_MIN, ZOOM_MAX)
 }
 
 /**
@@ -28,7 +40,7 @@ export function useTimelineZoom(
   scroller: Ref<HTMLElement | null>,
   wheelScrollsHorizontally: Ref<boolean>,
 ) {
-  const zoom = ref(ZOOM_DEFAULT)
+  const zoom = ref(defaultZoom())
   const zoomPercent = computed(() => Math.round(zoom.value * 100))
   const canZoomIn = computed(() => zoom.value < ZOOM_MAX - 1e-6)
   const canZoomOut = computed(() => zoom.value > ZOOM_MIN + 1e-6)
@@ -75,8 +87,9 @@ export function useTimelineZoom(
     setZoom(zoom.value / ZOOM_STEP, anchorClientX)
   }
 
+  /** Obnoví predvolený zoom pre aktuálnu šírku viewportu. */
   function resetZoom() {
-    setZoom(ZOOM_DEFAULT)
+    setZoom(defaultZoom())
   }
 
   function onWheel(event: WheelEvent) {

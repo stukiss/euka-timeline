@@ -1,4 +1,5 @@
 import { onBeforeUnmount, onMounted, type Ref } from 'vue'
+import { MOBILE_QUERY } from '@/config/timeline'
 
 /**
  * Podiel cesty k "prvý event je v strede obrazovky", po ktorom je landing
@@ -7,8 +8,6 @@ import { onBeforeUnmount, onMounted, type Ref } from 'vue'
  */
 const FADE_RATIO_DESKTOP = 0.75
 const FADE_RATIO_MOBILE = 0.62
-
-const MOBILE_QUERY = '(max-width: 899px)'
 
 function prefersReducedMotion(): boolean {
   return window.matchMedia('(prefers-reduced-motion: reduce)').matches

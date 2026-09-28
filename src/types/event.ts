@@ -2,6 +2,7 @@
 export interface RawTimelineEvent {
   date: string
   title: string
+  description?: string
   images?: string[]
 }
 
@@ -19,6 +20,7 @@ export interface TimelineEvent {
   /** Naparsovaný dátum (polnoc UTC). */
   dateObj: Date
   title: string
+  description: string | undefined
   /** Plné cesty k obrázkom vrátane BASE_URL. Prázdne pole = event bez obrázkov. */
   images: string[]
 }

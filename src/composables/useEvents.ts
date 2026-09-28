@@ -34,6 +34,12 @@ function normalize(raw: unknown, index: number): TimelineEvent | null {
     return null
   }
 
+  // Popis je voliteľný; prázdny alebo nesprávny typ sa berie ako "nie je".
+  const description =
+    typeof candidate.description === 'string' && candidate.description.trim().length > 0
+      ? candidate.description.trim()
+      : undefined
+
   // Obrázky sú voliteľné; nevalidné položky v poli sa ticho odfiltrujú.
   const images = Array.isArray(candidate.images)
     ? candidate.images
@@ -46,6 +52,7 @@ function normalize(raw: unknown, index: number): TimelineEvent | null {
     date: candidate.date as string,
     dateObj,
     title,
+    description,
     images,
   }
 }

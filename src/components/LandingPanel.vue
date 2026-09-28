@@ -11,20 +11,18 @@ const emit = defineEmits<{ 'scroll-to-timeline': [] }>()
   <header class="landing">
     <p class="landing__eyebrow">Naše spomienky</p>
 
-    <h1 class="landing__title">
-      Lorem ipsum dolor sit amet,
-      <em>consectetur</em>
-      adipiscing elit
-    </h1>
+    <h1 class="landing__title">Milá Evka, milý Adam, vitajte na <em>vašej časovej osi</em>.</h1>
 
     <p class="landing__lead">
-      Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Táto mini appka bude pre vás slúžiť ako digitálny album, do ktorého si môžete ukladať všetky
+      vaše spoločné spomienky a k nim prislúchajúce fotky. Všetko, čo spolu prežijete, si tu môžete
+      zaznamenať a kedykoľvek sa k tomu vrátiť.
     </p>
 
     <p class="landing__note">
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-      pariatur.
+      Stačí stlačiť tlačidlo nižšie a môžte si zaspomínať na všetko, čo ste spolu prežili.
+      Nezabúdajte, že spomienky si môžte kedykoľvek doplniť a upraviť, aby ste naozaj na nič
+      nezabudli.
     </p>
 
     <button class="landing__cta" type="button" @click="emit('scroll-to-timeline')">
@@ -114,9 +112,9 @@ const emit = defineEmits<{ 'scroll-to-timeline': [] }>()
   letter-spacing: 0.01em;
   box-shadow: var(--shadow-md);
   transition:
-    transform 180ms var(--ease),
-    background-color 180ms var(--ease),
-    box-shadow 180ms var(--ease);
+    transform 2500ms var(--ease),
+    background-color 2500ms var(--ease),
+    box-shadow 2500ms var(--ease);
 }
 
 .landing__cta:hover {

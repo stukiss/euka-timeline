@@ -46,6 +46,7 @@ const imageCountLabel = computed(() => {
       <div class="node__label">
         <p class="node__date">{{ formattedDate }}</p>
         <p class="node__title">{{ event.title }}</p>
+        <p v-if="event.description" class="node__description">{{ event.description }}</p>
       </div>
 
       <!-- Náhľad obrázkov sa renderuje iba pri eventoch, ktoré nejaké majú,
@@ -113,8 +114,8 @@ const imageCountLabel = computed(() => {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 34px;
-  height: 34px;
+  width: 40px;
+  height: 40px;
   padding: 0;
   display: grid;
   place-items: center;
@@ -124,8 +125,8 @@ const imageCountLabel = computed(() => {
 }
 
 .node__dot-core {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background: var(--c-surface-solid);
   border: 3px solid var(--c-accent);
@@ -144,8 +145,8 @@ const imageCountLabel = computed(() => {
 
 .node:hover .node__dot-core,
 .node:focus-within .node__dot-core {
-  width: 26px;
-  height: 26px;
+  width: 32px;
+  height: 32px;
   background: var(--c-accent-deep);
   border-color: var(--c-surface-solid);
   box-shadow: 0 0 0 6px var(--c-accent-soft);
@@ -155,7 +156,7 @@ const imageCountLabel = computed(() => {
 .node__stack {
   position: absolute;
   left: 50%;
-  width: 190px;
+  width: 210px;
   transform: translateX(-50%);
   text-align: center;
 }
@@ -178,9 +179,18 @@ const imageCountLabel = computed(() => {
 
 .node__title {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: 1.625rem;
   line-height: 1.25;
   color: var(--c-text);
+}
+
+.node__description {
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1.25;
+  color: var(--c-accent-deep);
+  margin-top: 6px;
+  margin-bottom: 6px;
 }
 
 /* --- náhľad fotiek (iba po hoveri / fokuse) --- */

@@ -8,7 +8,7 @@
  * 1.2 px/deň ≈ týždeň 8 px, mesiac 36 px, rok 438 px.
  * Zvýš pre redšiu (roztiahnutejšiu) os, zníž pre hustejšiu.
  */
-export const BASE_PX_PER_DAY = 1.2
+export const BASE_PX_PER_DAY = 16
 
 /** Minimálny rozostup dvoch susedných eventov v px (ochrana proti prekryvu). */
 export const MIN_GAP_PX = 120
@@ -20,6 +20,19 @@ export const TRACK_PAD_X = 120
 export const ZOOM_MIN = 0.15
 export const ZOOM_MAX = 8
 export const ZOOM_DEFAULT = 1
+
+/**
+ * Predvolený zoom na mobile. Os je tam podstatne užšia, takže hustota vhodná
+ * pre desktop by pôsobila príliš roztiahnuto — tu sa oddiali.
+ */
+export const ZOOM_DEFAULT_MOBILE = 0.5
+
+/**
+ * Breakpoint mobilného zobrazenia.
+ * Musí sedieť s `@media (max-width: 899px)` v štýloch — inak by sa
+ * správanie (zoom, fade) rozišlo s layoutom.
+ */
+export const MOBILE_QUERY = '(max-width: 899px)'
 
 /** Násobiteľ na jedno kliknutie tlačidla +/-. */
 export const ZOOM_STEP = 1.4

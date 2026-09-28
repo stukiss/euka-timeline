@@ -12,6 +12,7 @@ sa nasadí nová verzia bez akéhokoľvek zásahu do kódu.
     {
       "date": "2023-05-14",
       "title": "Prvé rande v kaviarni",
+      "description": "Pár viet navyše — voliteľné.",
       "images": ["images/kaviaren-1.jpg", "images/kaviaren-2.jpg"]
     }
   ]
@@ -22,6 +23,7 @@ sa nasadí nová verzia bez akéhokoľvek zásahu do kódu.
 | --- | --- | --- | --- |
 | `date` | áno | string | Dátum vo formáte `YYYY-MM-DD` (napr. `2024-07-18`). Parsuje sa striktne — `2024-13-01` alebo `2024-02-31` sa odmietne. |
 | `title` | áno | string | Názov eventu zobrazený na osi. |
+| `description` | nie | string | Pár viet pod názvom. Vynechaj pole (alebo daj prázdny string), ak event popis nemá — vtedy sa nevykreslí vôbec. |
 | `images` | nie | string[] | Cesty k obrázkom **relatívne k priečinku `public/`**, bez úvodnej lomky. Vynechaj pole (alebo daj `[]`), ak event nemá fotky. |
 
 ### Poradie záznamov
@@ -58,5 +60,8 @@ Konštanty sú v [`src/config/timeline.ts`](src/config/timeline.ts):
 | --- | --- |
 | `BASE_PX_PER_DAY` | Koľko pixelov je jeden deň pri zoome 100 %. Väčšie číslo = redšia os. |
 | `MIN_GAP_PX` | Minimálny rozostup dvoch susedných bodov, aby sa popisky neprekrývali. |
+| `ZOOM_DEFAULT` | Zoom po načítaní na desktope. |
+| `ZOOM_DEFAULT_MOBILE` | Zoom po načítaní na mobile (užšia obrazovka znesie menšiu hustotu). |
 | `ZOOM_MIN` / `ZOOM_MAX` | Limity zoomu. |
 | `ZOOM_STEP` | Násobiteľ na jedno kliknutie `+` / `−`. |
+| `MOBILE_QUERY` | Breakpoint mobilu. Musí sedieť s `@media (max-width: 899px)` v štýloch. |

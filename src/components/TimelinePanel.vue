@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import type { TimelineEvent } from '@/types/event'
-import { BASE_PX_PER_DAY, MIN_GAP_PX, TRACK_PAD_X } from '@/config/timeline'
+import { BASE_PX_PER_DAY, MIN_GAP_PX, MOBILE_QUERY, TRACK_PAD_X } from '@/config/timeline'
 import { daysBetween } from '@/utils/date'
 import { useTimelineZoom } from '@/composables/useTimelineZoom'
 import TimelineEventNode from './TimelineEventNode.vue'
@@ -26,11 +26,11 @@ const isWide = ref(true)
 let mediaQuery: MediaQueryList | null = null
 
 function syncWidth(event: MediaQueryList | MediaQueryListEvent) {
-  isWide.value = event.matches
+  isWide.value = !event.matches
 }
 
 onMounted(() => {
-  mediaQuery = window.matchMedia('(min-width: 900px)')
+  mediaQuery = window.matchMedia(MOBILE_QUERY)
   syncWidth(mediaQuery)
   mediaQuery.addEventListener('change', syncWidth)
 })
