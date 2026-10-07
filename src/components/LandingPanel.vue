@@ -22,7 +22,7 @@ const emit = defineEmits<{ 'scroll-to-timeline': [] }>()
     <p class="landing__note">
       Stačí stlačiť tlačidlo nižšie a môžte si zaspomínať na všetko, čo ste spolu prežili.
       Nezabúdajte, že spomienky si môžte kedykoľvek doplniť a upraviť, aby ste naozaj na nič
-      nezabudli.
+      nezabudli. (Adam vie ako 😅)
     </p>
 
     <button class="landing__cta" type="button" @click="emit('scroll-to-timeline')">

@@ -26,114 +26,258 @@
       "description": "Prvá akcoška, kde sme sa museli schovávať."
     },
     {
+      "date": "2026-04-22",
+      "title": "Výlet na Straník",
+      "images": ["images/IMG00099.jpg"]
+    },
+    {
       "date": "2026-05-06",
       "title": "Prvé ľúbim ťa",
       "description": "A hoci sme sa toho tak skoro trošku báli, ale nebolo na čo čakať"
     },
     {
       "date": "2026-05-07",
-      "title": "Hutyyyyy"
+      "title": "Hutyyyyy",
+      "description": "A samozrejme aj ďalšie krásne miesta, ako Juráňova dolina, výhľady na Oravu a teba 💚",
+      "images": [
+        "images/IMG00100.jpg",
+        "images/IMG00101.jpg",
+        "images/IMG00102.jpg",
+        "images/IMG00103.jpg",
+        "images/IMG00104.jpg",
+        "images/IMG00106.jpg",
+        "images/IMG00107.jpg",
+        "images/IMG00108.jpg",
+        "images/IMG00109.jpg",
+        "images/IMG00110.jpg",
+        "images/IMG00111.jpg",
+        "images/IMG00112.jpg"
+      ]
     },
     {
       "date": "2026-05-08",
-      "title": "Naše prvé \"selfie\""
+      "title": "Naše prvé \"selfie\"",
+      "images": ["images/IMG00105.jpg"]
     },
     {
       "date": "2026-05-22",
-      "title": "Výlet na Starhrad"
+      "title": "Výlet na Starhrad",
+      "images": ["images/IMG00113.jpg"]
     },
     {
       "date": "2026-05-29",
       "title": "Šalátik na kopčeku",
-      "description": "Ďalšia spoločná aktivitka, ktorá nás neskutočne baví (a ktorú by nám mali všetci fancy ľudia závidieť)"
+      "description": "Ďalšia spoločná aktivitka, ktorá nás neskutočne baví (a ktorú by nám mali všetci fancy ľudia závidieť)",
+      "images": ["images/IMG00116.jpg"]
     },
     {
       "date": "2026-06-17",
       "title": "Najlepší kebab",
-      "description": "Ten v Prievidzi, haha, a nohy nesmú chýbať"
+      "description": "Ten v Prievidzi, haha, a nohy nesmú chýbať",
+      "images": ["images/IMG00117.jpg"]
     },
     {
       "date": "2026-06-18",
       "title": "Hrádok",
-      "description": "Náš prvý spoločný výlet u Adama doma"
+      "description": "Náš prvý spoločný výlet u Adama doma",
+      "images": [
+        "images/IMG00118.jpg",
+        "images/IMG00119.jpg",
+        "images/IMG00120.jpg",
+        "images/IMG00121.jpg"
+      ]
     },
     {
       "date": "2026-06-25",
       "title": "Evkine promócie",
-      "description": "Dámy a páni, Evka je už oficiálne inžinierka!"
+      "description": "Dámy a páni, Evka je už oficiálne inžinierka!",
+      "images": ["images/IMG00001.jpg"]
     },
     {
       "date": "2026-06-25",
       "title": "Bobrov",
-      "description": "Toto je zas náš prvý spoločný výlet u Evky doma"
+      "description": "Toto je zas náš prvý spoločný výlet u Evky doma",
+      "images": ["images/IMG00122.jpg"]
     },
     {
       "date": "2026-07-02",
-      "title": "Gaderská dolina a hrad Blatnica"
+      "title": "Gaderská dolina a hrad Blatnica",
+      "images": [
+        "images/IMG00002.JPG",
+        "images/IMG00003.jpeg",
+        "images/IMG00004.jpeg",
+        "images/IMG00005.jpeg",
+        "images/IMG00007.jpeg",
+        "images/IMG00008.jpeg",
+        "images/IMG00009.jpeg",
+        "images/IMG00010.jpeg"
+      ]
     },
     {
       "date": "2026-07-05",
-      "title": "Terchová"
+      "title": "Terchová",
+      "images": [
+        "images/IMG00006.jpeg",
+        "images/IMG00011.jpeg",
+        "images/IMG00012.jpeg",
+        "images/IMG00013.jpeg"
+      ]
     },
     {
       "date": "2026-07-24",
-      "title": "Mega výletík u Adama",
-      "description": "Hrad Hrušov, vyhliadka na Skýcove a ešte aj Sivý Kameň v Podhradí"
+      "title": "Trojitý výletík u Adama",
+      "description": "Hrad Hrušov, vyhliadka na Skýcove a ešte aj Sivý Kameň v Podhradí",
+      "images": [
+        "images/IMG00016.jpeg",
+        "images/IMG00017.jpeg",
+        "images/IMG00018.jpeg",
+        "images/IMG00096.JPG",
+        "images/IMG00095.JPG",
+        "images/IMG00019.jpeg",
+        "images/IMG00020.jpeg",
+        "images/IMG00021.jpeg",
+        "images/IMG00022.jpeg",
+        "images/IMG00023.jpeg",
+        "images/IMG00024.jpeg"
+      ]
     },
     {
       "date": "2026-08-03",
-      "title": "Prvý spoločný cyklovýlet okolo Vodného diela"
+      "title": "Prvý spoločný cyklovýlet okolo Vodného diela",
+      "images": [
+        "images/IMG00025.jpeg",
+        "images/IMG00026.jpeg",
+        "images/IMG00027.jpeg",
+        "images/IMG00028.jpeg"
+      ]
     },
     {
       "date": "2026-08-10",
-      "title": "Lietavský hrad"
+      "title": "Lietavský hrad",
+      "images": [
+        "images/IMG00029.jpeg",
+        "images/IMG00030.jpeg",
+        "images/IMG00031.jpeg",
+        "images/IMG00032.jpeg",
+        "images/IMG00033.jpeg",
+        "images/IMG00097.JPG",
+        "images/IMG00098.JPG",
+        "images/IMG00034.jpeg",
+        "images/IMG00035.jpeg"
+      ]
     },
     {
       "date": "2026-08-12",
-      "title": "Zatmenie Slnka na Straníku"
+      "title": "Zatmenie Slnka na Straníku",
+      "images": [
+        "images/IMG00038.jpeg",
+        "images/IMG00036.jpeg",
+        "images/IMG00037.jpeg",
+        "images/IMG00039.jpeg",
+        "images/IMG00040.jpeg"
+      ]
     },
     {
       "date": "2026-08-21",
       "title": "Druhý pokus prejsť Gaderskú dolinu",
-      "description": "Tentokrát úspešný aj s oslavnou horalkou v jaskyni"
+      "description": "Tentokrát úspešný aj s oslavnou horalkou v jaskyni",
+      "images": [
+        "images/IMG00041.jpeg",
+        "images/IMG00042.jpeg",
+        "images/IMG00043.jpeg",
+        "images/IMG00014.jpeg"
+      ]
     },
     {
       "date": "2026-08-25",
       "title": "Začiatok gréckeho roadtripu",
-      "description": "Tu sa začala naša prvá spoločná dovolenka pri mori! (dosť dobrými drinčíkmi btw)"
+      "description": "Tu sa začala naša prvá spoločná dovolenka pri mori! (dosť dobrými drinčíkmi btw)",
+      "images": ["images/IMG00044.jpeg", "images/IMG00045.jpeg"]
     },
     {
       "date": "2026-08-26",
-      "title": "Výlet do jaskyne a prvé kupkanieee"
+      "title": "Výlet do jaskyne a prvé kupkanieee",
+      "images": [
+        "images/IMG00046.jpeg",
+        "images/IMG00047.jpeg",
+        "images/IMG00048.jpeg",
+        "images/IMG00049.jpeg",
+        "images/IMG00050.jpeg",
+        "images/IMG00051.jpeg",
+        "images/IMG00052.jpeg",
+        "images/IMG00053.jpeg",
+        "images/IMG00054.jpeg",
+        "images/IMG00055.jpeg"
+      ]
     },
     {
       "date": "2026-08-27",
       "title": "Pokračujeme v roadtripe",
-      "description": "Čo ten spálený chrbát, hmmm?"
+      "description": "Čo ten spálený chrbát, hmmm?",
+      "images": [
+        "images/IMG00056.jpeg",
+        "images/IMG00057.jpeg",
+        "images/IMG00058.jpeg",
+        "images/IMG00059.jpeg"
+      ]
     },
     {
       "date": "2026-08-28",
       "title": "Túlanie sa po Solúne",
-      "description": "Foto múzeum, biela veža, mekáč, plavba na lodi a nakoniec ešte prehliadkavojnovej lode ešte aj s Dávidkovym komentárom."
+      "description": "Foto múzeum, biela veža, mekáč, plavba na lodi a nakoniec ešte prehliadka vojnovej lode ešte aj s Dávidkovym komentárom.",
+      "images": [
+        "images/IMG00060.jpeg",
+        "images/IMG00061.jpeg",
+        "images/IMG00062.jpeg",
+        "images/IMG00063.jpeg",
+        "images/IMG00064.jpeg",
+        "images/IMG00065.jpeg",
+        "images/IMG00066.jpeg",
+        "images/IMG00067.jpeg",
+        "images/IMG00068.jpeg",
+        "images/IMG00069.jpeg",
+        "images/IMG00070.jpeg",
+        "images/IMG00071.jpeg",
+        "images/IMG00072.jpeg",
+        "images/IMG00073.jpeg"
+      ]
     },
     {
       "date": "2026-08-29",
       "title": "Posledné kúpanie v mori",
-      "description": "Na to sme si museli vytiahnuť špeciálnu sedačku :D"
+      "description": "Na to sme si museli vytiahnuť špeciálnu sedačku :D",
+      "images": ["images/IMG00074.jpeg", "images/IMG00075.jpeg", "images/IMG00076.jpeg"]
     },
     {
       "date": "2026-08-30",
-      "title": "Na záver roadtripu ppč technikcé múzeum",
-      "description": "Och, tie autíčka čo tam boli, a foťáčikyyyyyyy. A btw, dúfam že naše deti budú vyzerať tak dobre ako my na tej poslednej fotke"
+      "title": "Na záver roadtripu ppč technické múzeum",
+      "description": "Och, tie autíčka čo tam boli, a foťáčikyyyyyyy. A btw, dúfam že naše deti budú vyzerať tak dobre ako my na tej poslednej fotke",
+      "images": ["images/IMG00078.jpeg", "images/IMG00079.jpeg", "images/IMG00077.jpeg"]
     },
     {
       "date": "2026-09-05",
       "title": "Ďalší cyklovýlet a večer Gladiátor",
-      "description": "Čo ten spálený chrbát, hmmm?"
+      "description": "Šlapalo sa síce ťažko, ale ten večerný koncert stál za to!",
+      "images": ["images/IMG00080.jpeg", "images/IMG00081.jpeg", "images/IMG00082.jpeg"]
     },
     {
       "date": "2026-09-15",
-      "title": "Výlet na Kľak zakončený haluškami a pirohami"
+      "title": "Výlet na Kľak zakončený haluškami a pirohami",
+      "description": "...a randíčko pri kávičke a koláčiku potom",
+      "images": [
+        "images/IMG00083.jpeg",
+        "images/IMG00084.jpeg",
+        "images/IMG00085.jpeg",
+        "images/IMG00086.jpeg",
+        "images/IMG00087.jpeg",
+        "images/IMG00088.jpeg",
+        "images/IMG00089.jpeg",
+        "images/IMG00090.jpeg",
+        "images/IMG00091.jpeg",
+        "images/IMG00092.jpeg",
+        "images/IMG00093.jpeg",
+        "images/IMG00094.jpeg"
+      ]
     }
   ]
 }
